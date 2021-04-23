@@ -1,0 +1,11 @@
+```uml
+@startuml
+:体力=10;
+if(体力<=20)then(true)
+:宿屋へ行く;
+else(false)
+:頑張る;
+end if
+stop
+@enduml
+```
