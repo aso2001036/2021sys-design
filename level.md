@@ -1,4 +1,4 @@
-``uml
+```uml
 @startuml
 start
 :体力=10;
