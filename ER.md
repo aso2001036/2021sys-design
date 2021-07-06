@@ -17,5 +17,6 @@ entity "購入履歴" as rireki <rireki> {
 syouhinn
 date
 }
+customer }|..|| rireki
 @enduml
 ```
