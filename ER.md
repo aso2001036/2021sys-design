@@ -11,5 +11,11 @@ mail
 del_flag
 reg_date
 }
+entity "購入履歴" as rireki <rireki> {
++ rireki_code [PK]
+--
+syouhinn
+date
+}
 @enduml
 ```
