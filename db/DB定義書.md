@@ -4,9 +4,7 @@
 
 # DBテーブルカラム詳細一覧
 
-***データベース***
-
-d_purchase
+### d_purchase
 |行名|型|not null|主キー|外部キー|
 |----|--|--------|------|-----|
 |order_id|bigint(20)|〇|〇||
@@ -14,7 +12,7 @@ d_purchase
 |purchase_date|date|〇|||
 |total_price|int(11)|〇|||
 
-d_purchase_detail
+### d_purchase_detail
 |行名|型|not null|主キー|外部キー|
 |----|--|--------|------|-----|
 |detail_id|bigint(20)|〇|〇||
@@ -23,7 +21,7 @@ d_purchase_detail
 |purchase_date|date|〇|||
 |total_price|int(11)|〇|||
 
-m_customers
+### m_customers
 |行名|型|not null|主キー|外部キー|
 |----|--|--------|------|-----|
 |costomer_code|varchar(50)|〇|〇||
@@ -35,14 +33,14 @@ m_customers
 |del_flag|int(1)||||
 |reg_date|date|〇|||
 
-m_category
+### m_category
 |行名|型|not null|主キー|外部キー|
 |----|--|--------|------|-----|
 |category_id|int(11)|〇|〇||
 |name|varchar(20)|〇|||
 |reg_date|date|〇|||
 
-m_items
+### m_items
 |行名|型|not null|主キー|外部キー|
 |----|--|--------|------|-----|
 |item_id|int(11)|〇|〇||
