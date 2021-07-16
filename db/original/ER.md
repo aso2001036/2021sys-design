@@ -3,7 +3,7 @@
 entity "購入テーブル" as purchase <d_purchase> {
 + order_id [PK]
 --
-customer_code [FK]
+# customer_code [FK]
 purchase_date
 total_price
 }
@@ -12,7 +12,7 @@ entity "購入詳細テーブル" as purcher_detail <d_purchase_detail> {
 + detail_id [PK]
 + order_id [PK] [FK]
 --
-customer_code [FK]
+# customer_code [FK]
 purchase_date
 }
 
@@ -47,7 +47,7 @@ entity "商品マスタ" as items <m_items> {
 --
 item_name
 price
-category_id[FK]
+# category_id[FK]
 image
 detail
 del_flag
