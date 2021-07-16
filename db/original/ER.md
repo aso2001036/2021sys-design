@@ -54,11 +54,18 @@ del_flag
 reg_date
 }
 
+entity "イベントテーブル" as ibento <m_ibento> {
++ ibento_id[PK][FK]
+--
+date
+}
+
 purchase ----|{ purcher_detail
 purchase ----|{ rireki
 purcher_detail ------ rireki
 customer }o--|{ purchase
 items }o--|{ purchase
 items }o--|{ category
+category }|--o{ ibento
 @enduml
 ```
