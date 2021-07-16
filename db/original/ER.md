@@ -59,6 +59,6 @@ purchase ----|{ rireki
 purcher_detail ------ rireki
 customer ----|{ purchase
 items ----|{ purchase
-items ----|{ category
+items }o--|{ category
 @enduml
 ```
