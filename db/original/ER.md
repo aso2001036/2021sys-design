@@ -55,5 +55,7 @@ reg_date
 }
 
 purchase ----|{ purcher_detail
+purchase ----|{ rireki
+purcher_detail ------ rireki
 @enduml
 ```
