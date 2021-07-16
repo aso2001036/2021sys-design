@@ -1,6 +1,6 @@
 # DB定義書
 ## ER図
-[ER図はこちら]( https://github.com/aso2001036/2021sys-design/edit/main/db/original/ER.md "ER図はこちら" )
+[ER図はこちら]( https://github.com/aso2001036/2021sys-design/blob/main/db/original/ER.md "ER図はこちら" )
 
 # DBテーブルカラム詳細一覧
 
@@ -32,6 +32,13 @@
 |メールアドレス|mail|varchar(20)|〇|||
 |削除フラグ|del_flag|int(1)||||
 |登録日|reg_date|date|〇|||
+
+### 購入履歴テーブル (m_rireki)
+|和名|属性名（カラム名）|型|not null|主キー|外部キー|
+|----|----|--|--------|------|-----|
+|履歴コード|rireki_code|varcher(50)|〇|〇|〇|
+|購入商品|syohin|varcher(100)|〇|||
+|購入日|date|date|〇|||
 
 ### カテゴリマスタ（m_category）
 |和名|属性名（カラム名）|型|not null|主キー|外部キー|
