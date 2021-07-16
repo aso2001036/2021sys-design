@@ -53,5 +53,7 @@ detail
 del_flag
 reg_date
 }
+
+purchase ----|{ purchase_detail
 @enduml
 ```
