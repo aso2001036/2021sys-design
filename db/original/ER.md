@@ -57,5 +57,8 @@ reg_date
 purchase ----|{ purcher_detail
 purchase ----|{ rireki
 purcher_detail ------ rireki
+customer ----|{ purchase
+items ----|{ purchase
+items ----|{ category
 @enduml
 ```
