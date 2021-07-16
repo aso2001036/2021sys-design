@@ -28,15 +28,18 @@ del_flag
 reg_date
 }
 
-entity "購入履歴" as rireki <rireki> {
+entity "購入履歴" as rireki <m_rireki> {
 + rireki_code [PK]
 --
 syouhinn
 date
 }
 
-entity "" as <> {
-
+entity "カテゴリマスタ" as category <m_category> {
++ category_id [PK]
+--
+name
+reg_date
 }
 @enduml
 ```
