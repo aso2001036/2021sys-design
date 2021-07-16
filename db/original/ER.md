@@ -36,9 +36,21 @@ date
 }
 
 entity "カテゴリマスタ" as category <m_category> {
-+ category_id [PK]
++ category_id [PK] [FK]
 --
 name
+reg_date
+}
+
+entity "商品マスタ" as items <m_items> {
++ item_id[FK][PK]
+--
+item_name
+price
+category_id[FK]
+image
+detail
+del_flag
 reg_date
 }
 @enduml
