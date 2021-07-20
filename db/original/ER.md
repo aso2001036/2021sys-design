@@ -60,9 +60,9 @@ entity "イベントテーブル" as ibento <m_ibento> {
 date
 }
 
-purchase ----|{ purcher_detail
-purchase ----|{ rireki
-purcher_detail ------ rireki
+purchase --|{ purcher_detail
+purchase --|{ rireki
+purcher_detail ---- rireki
 customer }o--|{ purchase
 items }o--|{ purchase
 items }o--|{ category
