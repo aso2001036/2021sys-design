@@ -1,6 +1,6 @@
 ```puml
 @startuml
-pckage "ECサイト" as target_system {
+package "ECサイト" as target_system {
 entity "購入テーブル" as purchase <d_purchase> {
 + order_id [PK]
 --
