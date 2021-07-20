@@ -1,5 +1,6 @@
 ```puml
 @startuml
+pckage "ECサイト" as target_system {
 entity "購入テーブル" as purchase <d_purchase> {
 + order_id [PK]
 --
@@ -58,6 +59,7 @@ entity "イベントテーブル" as ibento <m_ibento> {
 + ibento_id[PK][FK]
 --
 date
+}
 }
 
 purchase --|{ purcher_detail
