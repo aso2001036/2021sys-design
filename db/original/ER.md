@@ -66,6 +66,6 @@ purcher_detail ------ rireki
 customer }o--|{ purchase
 items }o--|{ purchase
 items }o--|{ category
-category }|-o{ ibento
+category }|-d-o{ ibento
 @enduml
 ```
