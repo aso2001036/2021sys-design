@@ -1,5 +1,6 @@
 ```puml
 @startuml
+package "aaa" as target_system{
 entity "顧客マスタ" as customer <m_customers> {
 + customer_code [PK]
 --
@@ -16,6 +17,7 @@ entity "購入履歴" as rireki <rireki> {
 --
 syouhinn
 date
+}
 }
 customer }|..|| rireki
 @enduml
