@@ -19,6 +19,6 @@ syouhinn
 date
 }
 }
-customer }|..|| rireki
+customer ----|{ rireki
 @enduml
 ```
